@@ -1,0 +1,9 @@
+<div class="text-white mt-3 pt-3">
+    <% result.forEach(function(res){ %>
+        <option value="<%= res.id %>" name="user">
+            <%= res.id %>
+                <%= res.name %>
+                <%= res.task %>
+        </option>
+        <% }) %>
+</div>
